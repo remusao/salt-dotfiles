@@ -51,4 +51,4 @@ fi
 $USE_SUDO salt-call --local --config=./ --state-output=changes grains.setvals "{ \"user\": \"$USERNAME\", \"homedir\": \"${HOME}\" }"
 
 # Apply the high state
-$USE_SUDO salt-call --local --config=./ --state-output=full --retcode-passthrough state.highstate
+$USE_SUDO salt-call --local --config=./ --retcode-passthrough state.highstate
