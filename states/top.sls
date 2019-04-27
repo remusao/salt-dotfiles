@@ -1,7 +1,7 @@
 base:
   '*':
-    - setup
-    - dotfiles
-  'P@os_family:(Arch|Debian)':
     - packages
-    - gnome-shell
+    - git
+
+  'P@os_family:(Debian)':
+    - i3

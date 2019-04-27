@@ -1,0 +1,17 @@
+cask_args appdir: '/Applications'
+
+tap "Homebrew/bundle"
+tap "Homebrew/cask-fonts"
+tap "Homebrew/cask-versions"
+
+brew "automake"
+brew "cmake"
+brew "zsh"
+brew "fzf"
+brew "git"
+brew "jq"
+brew "ripgrep"
+
+cask "iterm2"
+cask "signal"
+cask "slack"

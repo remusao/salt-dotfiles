@@ -1,3 +1,7 @@
+
+include:
+  - .deb
+
 i3-configuration:
   file.managed:
     - name: {{ grains.homedir }}/.config/i3/config

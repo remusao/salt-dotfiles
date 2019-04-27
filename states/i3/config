@@ -21,7 +21,6 @@ assign [class="(?i)slack"] 4
 assign [class="(?i)spotify"] 5
 assign [class="(?i)steam"] 6
 
-
 # Multiscreen
 workspace 1 output DP2-2
 workspace 2 output DP2-2
