@@ -1,8 +1,12 @@
-dist: xenial
+matrix:
+  include:
+    - os: linux
+      dist: xenial
+    - os: osx
+
+script:
+  - ./init.sh
 
 notifications:
   email:
     on_failure: change
-
-script:
-  - ./init.sh
