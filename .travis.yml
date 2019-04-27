@@ -1,0 +1,8 @@
+dist: xenial
+
+notifications:
+  email:
+    on_failure: change
+
+script:
+  - ./init.sh
