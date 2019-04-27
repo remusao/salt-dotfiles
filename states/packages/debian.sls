@@ -1,0 +1,22 @@
+packages:
+  pkg.installed:
+    - refresh: True
+    - pkgs:
+      - apt-show-versions
+      - htop
+      - tree
+      - vim
+      - make
+      - zsh
+      - gcc
+      - g++
+      - gawk
+      - cmake
+      - build-essential
+      - python-dev
+      - python-pip
+      - python-virtualenv
+      - python3-dev
+      - python3-pip
+      - virtualenv
+      - virtualenvwrapper

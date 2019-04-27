@@ -1,11 +1,12 @@
+
 brew-brewfile:
   file.managed:
     - name: {{ grains['homedir'] }}/.config/brew/Brewfile
-    - source: salt://macOS/Brewfile
+    - source: salt://packages/Brewfile
     - user: {{ grains['user'] }}
     - makedirs: True
 
-macOS-brew:
+brew:
   cmd.run:
     - name: brew bundle install --file={{ grains['homedir'] }}/.config/brew/Brewfile
     - runas: {{ grains.user }}
